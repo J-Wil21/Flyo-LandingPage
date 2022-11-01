@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(243, 87%, 12%)
+}
+
+button {
+    background-color: hsl(224, 93%, 58%);
+    border: solid hsl(224, 93%, 58%);
+    border-radius: 3px;
+    padding: 7px 50px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.files,
+.productive,
+.signUp {
+    padding: 0 30px;
+}
+
+/* First & Second section text style */
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.8em;
+    line-height: 1.2em;
+    padding-bottom: 20px;
+}
+
+p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+    margin-right: 30%;
+}
+
+/* Nav bar styling*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+}
+
+.nav_flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav_flex li {
+    padding: 0 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.nav_flex a {
+    padding: 10px 25px;
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.nav_flex a:hover {
+    color: hsl(238, 22%, 44%);
+    background-color: hsl(240, 75%, 98%);
+    padding: 10px 25px;
+    border-radius: 15px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.logo {
+    padding: 15px 0 0 30px;
+    cursor: pointer;
+}
+
+/* First section*/
+.img_size1 {
+    max-width: 750px;
+    margin: 0 60px 0 80px;
+}
+
+.flex_files {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+#email {
+    margin-right: 15px;
+    padding: 8px 60px 8px 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Second section*/
+.curve-desktop {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    top: 2px;
+}
+
+.curve-mobile {
+    display: none;
+}
+
+.flex_productive {
+    background-color: hsl(240, 75%, 98%);
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.img_size2 {
+    max-width: 750px;
+    margin: 0 60px 0 80px;
+    padding-top: 30px;
+}
+
+.box {
+    background-color: #fff;
+    width: 400px;
+    border-radius: 15px;
+
+}
