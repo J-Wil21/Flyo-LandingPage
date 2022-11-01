@@ -12,12 +12,17 @@ button {
     padding: 7px 50px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(224, 100%, 70%);
+    border: solid hsl(224, 100%, 70%);
 }
 
 .files,
-.productive,
-.signUp {
-    padding: 0 30px;
+.productive {
+    padding: 0 4%;
 }
 
 /* First & Second section text style */
@@ -49,6 +54,7 @@ header {
 .nav_flex {
     display: flex;
     justify-content: space-around;
+    margin-right: 50px;
 
 }
 
@@ -76,14 +82,14 @@ header {
 }
 
 .logo {
-    padding: 15px 0 0 30px;
+    padding: 15px 0 0 75px;
     cursor: pointer;
 }
 
 /* First section*/
 .img_size1 {
     max-width: 750px;
-    margin: 0 60px 0 80px;
+    margin: 0 60px 0 50px;
 }
 
 .flex_files {
@@ -95,7 +101,7 @@ header {
 
 #email {
     margin-right: 15px;
-    padding: 8px 60px 8px 6px;
+    padding: 8px 28% 8px 6px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -106,6 +112,8 @@ header {
     margin: 0;
     position: relative;
     top: 2px;
+    overflow: hidden;
+    z-index: -1;
 }
 
 .curve-mobile {
@@ -122,13 +130,185 @@ header {
 
 .img_size2 {
     max-width: 750px;
-    margin: 0 60px 0 80px;
+    margin: 0 60px 0 50px;
     padding-top: 30px;
 }
 
+.productive a {
+    color: rgb(27, 146, 27);
+    text-decoration: none;
+    border-bottom: solid 1px rgb(27, 146, 27);
+
+}
+
+.productive a:hover {
+    color: rgb(7, 102, 7);
+    text-decoration: none;
+    border-bottom: solid 1px rgb(7, 102, 7);
+}
+
+
+
+
+/*Box styling*/
 .box {
     background-color: #fff;
-    width: 400px;
+    width: 390px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(66, 66, 66) 8px 8px 20px 0px;
+}
+
+
+.quote {
+    width: 20px;
+    margin: 10px 0 5px 20px;
+}
+
+.kyle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
+.flex_kyle {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    display: block;
+    font-weight: 700;
+}
+
+small {
+    font-size: small;
+}
+
+.box>p {
+    margin: 0 40px 0 20px;
+}
+
+/*Thrid section*/
+
+.signUp {
+    background-color: blueviolet;
+    padding: 60px 4%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.3em;
+    line-height: 1.2em;
+    padding-bottom: 20px;
+}
+
+#get_started {
+    padding: 10px 90% 10px 6px;
+    margin-bottom: 3%;
+}
+
+.signUp_flex {
+    margin: 30px 0;
+}
+
+.early_access {
+    max-width: 55%;
+}
+
+/* Footer*/
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    height: 44vh;
+
+}
+
+.footer_grid {
+    margin: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.grid1 {
+    grid-column: 1;
+    display:flex;
+}
+.grid1>img{
+    width: 14px;
+    height: 14px; 
+    margin-right: 7%;
+    margin-top: 1%;
+}
+
+.grid2 {
+    grid-row: 2;
+    display: flex;
+}
+.grid2>img {
+    width: 19px;
+    height: 14px;
+    margin-right: 5%;
+    margin-top: 1.4%;
+}
+
+.grid3 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.grid4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.grid5 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.grid6 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.grid7 {
+    grid-column: 3;
+    grid-row: 1;
+
+}
+
+.grid8 {
+    grid-column: 3;
+    grid-row: 2;
+
+}
+
+.grid9 {
+    grid-column: 3;
+    grid-row: 3;
+
+}
+
+/* .footer_grid>div{
+    max-width: 100%;
+} */
+
+
+
+.white {
+    color: #fff;
+}
+
+.white_logo {
+    filter: brightness(0) invert(1);
+    padding: 30px 0 0 30px;
 
 }
