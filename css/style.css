@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
 
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: hsl(243, 87%, 12%)
@@ -27,7 +29,9 @@ button:hover {
     padding: 0 4%;
 }
 
-/* First & Second section text style */
+
+
+/* First, Second, Third section text style */
 h1,
 h2 {
     font-family: 'Raleway', sans-serif;
@@ -196,7 +200,7 @@ small {
 /*Thrid section*/
 
 .signUp {
-    background-color: blueviolet;
+    background-color: hsl(238, 22%, 44%);
     padding: 60px 4%;
     color: #fff;
     display: flex;
@@ -331,5 +335,54 @@ p>a:hover {
 .white_logo {
     filter: brightness(0) invert(1);
     padding: 30px 0 0 4%;
+
+}
+
+/*smaller pictures version*/
+
+@media screen and (max-width: 1450px) {
+
+    .img_size1 {
+        width: 550px;
+    }
+
+    .img_size2 {
+        width: 550px;
+    }
+
+    #get_started {
+        padding: 10px 60% 10px 6px;
+    }
+
+    /* First, Second, Third section text style */
+    h1,
+    h2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 1.2em;
+        padding-bottom: 20px;
+    }
+
+    p {
+        padding-bottom: 20px;
+        line-height: 1.7em;
+        margin-right: 30%;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .img_size1 {
+        width: 450px;
+    }
+
+    .img_size2 {
+        width: 450px;
+    }
+
+    #get_started {
+        padding: 10px 60% 10px 6px;
+    }
 
 }
