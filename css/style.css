@@ -421,6 +421,7 @@ p>a:hover {
         display: flex;
         justify-content: space-around;
         margin-right: auto;
+        padding-bottom: 20px;
 
     }
 
@@ -443,7 +444,7 @@ p>a:hover {
     }
 
     .logo {
-        padding: 25px 0 0 10px;
+        padding: 7px 0 0 10px;
         cursor: pointer;
         width: 80px;
     }
@@ -719,22 +720,25 @@ p>a:hover {
 
     footer {
         background-color: hsl(243, 87%, 12%);
-        height: 44vh;
+        height: auto;
 
     }
 
 
     .footer_grid {
-        margin: 4%;
+        margin: 7% auto;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         text-align: center;
     }
 
     .grid1 {
         grid-column: 1;
+        grid-row: 1;
         display: flex;
+
+        margin: 0 auto;
     }
 
     .grid1>img {
@@ -747,6 +751,7 @@ p>a:hover {
     .grid2 {
         grid-row: 2;
         display: flex;
+        margin: 0 auto;
     }
 
     .grid2>img {
@@ -757,45 +762,45 @@ p>a:hover {
     }
 
     .grid3 {
-        grid-column: 2;
-        grid-row: 1;
-    }
-
-    .grid4 {
-        grid-column: 2;
-        grid-row: 2;
-    }
-
-    .grid5 {
-        grid-column: 2;
+        grid-column: 1;
         grid-row: 3;
     }
 
-    .grid6 {
-        grid-column: 2;
+    .grid4 {
+        grid-column: 1;
         grid-row: 4;
     }
 
+    .grid5 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .grid6 {
+        grid-column: 1;
+        grid-row: 6;
+    }
+
     .grid7 {
-        grid-column: 3;
-        grid-row: 1;
+        grid-column: 1;
+        grid-row: 7;
 
     }
 
     .grid8 {
-        grid-column: 3;
-        grid-row: 2;
+        grid-column: 1;
+        grid-row: 8;
 
     }
 
     .grid9 {
-        grid-column: 3;
-        grid-row: 3;
+        grid-column: 1;
+        grid-row: 9;
     }
 
     .grid10 {
-        grid-column: 4;
-        grid-row: 2;
+        grid-column: 1;
+        grid-row: 10;
 
     }
 
@@ -809,15 +814,11 @@ p>a:hover {
 
     }
 
-    a {
-        color: #fff;
-        text-decoration: none;
-    }
-
     .white_logo {
+
         filter: brightness(0) invert(1);
         padding: 30px 0 0 4%;
-
+        z-index: -2;
     }
 
 }
