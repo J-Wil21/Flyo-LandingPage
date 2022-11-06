@@ -125,10 +125,6 @@ header {
     z-index: -1;
 }
 
-.curve-mobile {
-    display: none;
-}
-
 .flex_productive {
     background-color: hsl(240, 75%, 98%);
     margin: 0;
